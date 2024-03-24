@@ -1,0 +1,59 @@
+.input,
+.input_error {
+  min-width: 380px;
+  max-width: 100%;
+  width: 100%;
+  min-height: 56px;
+  background-color: white;
+  padding: 8px 12px;
+  display: flex;
+  gap: 12px;
+  border: 1px solid #e2e4f0;
+  color: black;
+  border-radius: 8px;
+}
+
+.input::placeholder {
+  color: #e2e4f0;
+}
+
+.input:hover {
+  border: 1px solid #828ead;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 6px 0px #bac4e0;
+  outline: 2px solid #1551e5;
+}
+
+.input:disabled {
+  background-color: #f2f5f9;
+  border: 1px solid #f0f3fc;
+}
+
+.input_error {
+  outline: 2px solid #ff608a;
+  color: #ff608a;
+}
+.input_error::placeholder {
+  color: #ff608a;
+}
+
+.searchWrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.searchIconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  right: 12px;
+}
+
+.searchIconWrapper img {
+  cursor: pointer;
+}

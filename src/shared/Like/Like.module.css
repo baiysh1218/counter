@@ -1,0 +1,26 @@
+.like {
+  min-width: 72px;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  background-color: #f2f6ff;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  color: #1551e5;
+}
+
+.like:focus {
+  outline: none;
+}
+
+.small {
+  padding: 8px 12px;
+  min-height: 32px;
+  height: 32px;
+}
+.medium {
+  padding: 16px 24px;
+  min-height: 56px;
+  height: 56px;
+}

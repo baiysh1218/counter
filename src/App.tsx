@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./features/Header/Header";
+import Navbar from "./features/Navbar/Navbar";
+import "./index.css";
+import Detail from "./pages/Details/Detail";
+import BreadCrumbs from "./shared/BredCrums/BreadCrumbs";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Navbar />
+      <BreadCrumbs>
+        <li>Каталог</li>/<li>Обувь</li>/<li>Кроссовки</li>/<li>Беговые</li>
+      </BreadCrumbs>
+      <Detail />
     </div>
   );
-}
+};
 
 export default App;

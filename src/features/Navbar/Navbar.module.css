@@ -1,0 +1,31 @@
+.navbar_wrapper {
+  border-bottom: 1px solid #e2e4f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 56px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar ul li {
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar ul:first-child li {
+  color: #071435;
+}
+
+.navbar ul:last-child li {
+  color: #1551e5;
+}

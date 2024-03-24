@@ -1,0 +1,24 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 500px;
+}
+
+.carousel img {
+  width: 64px;
+  height: 64px;
+}
+.main_pic {
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 500px;
+  max-width: 500px;
+  margin-bottom: 24px;
+  border-radius: 125px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+}

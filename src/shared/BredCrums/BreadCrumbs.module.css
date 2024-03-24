@@ -1,0 +1,17 @@
+.bread {
+  display: flex;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #828ead;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.bread li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #828ead;
+}
